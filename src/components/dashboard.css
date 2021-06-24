@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&display=swap');
+body{
+    background: rgb(224, 215, 215);
+    color:black;
+    font-family: 'Nunito', sans-serif;
+
+}
+ul {
+    background: 'whitesmoke';
+    padding: 20px;
+  }
+ul li {
+    background: #cce5ff;
+    margin: 5px;
+  }
+ul li:hover {
+    background-color: yellow;
+    transform: scale(1.09); 
+  }
+.widgetWrap {
+    background: #faf9f9;
+    margin-bottom: 18px;
+    opacity: 0.7;
+}
+.widgetWrap:hover{
+    background: #d3cdcd;
+    transform: scale(1.09);}
+
+.widgetTitle{
+    border-bottom: 1px solid #665151;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 10px;
+    font-size: medium;
+    color: rgb(10, 10, 10);
+
+}
+.value{
+    font-size: 57px;
+    font-weight: 700;
+    text-align: left;
+    padding: 0px 7px;
+    line-height: 100%;
+}
+.description{
+    text-align: left;
+    font-size: small;
+    padding-left: 13px;
+    font-weight: 600;
+    color: rgb(7, 7, 7);
+}
+.WidgetValue{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.TopHeader.row {
+    background: cadetblue;
+    margin-bottom: 17px;
+    padding: 10px 15px;
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    align-content: center;
+}
+
+.Dropdown-root {
+    font-size: initial;
+    float: right;
+    position: absolute;
+    width: 300px;
+
+}
+
+.value {
+    font-size: x-large;
+    color: rgb(10, 10, 10);
+    padding: 10px;
+    align-items: flex-end;
+}
+
+text {
+    font-weight: bolder;
+}

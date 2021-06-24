@@ -1,0 +1,17 @@
+@import 'https://code.highcharts.com/css/highcharts.css';
+
+  /* Titles */
+  .highcharts-title {
+    fill: black;
+    font-size: 100px;
+    font-weight: bold;
+  }
+  highcharts-loading {
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+    text-align: center;
+    z-index: 10;
+    transition: opacity 2500ms;
+  }
+  
